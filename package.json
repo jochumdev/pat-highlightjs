@@ -1,6 +1,15 @@
 {
   "name": "pat-highlightjs",
-  "version": "0.0.1",
+  "version": "0.0.2",
+  "description": "Highlightjs encapsulated into a pattern for patternslib.",
+  "author": {
+    "name": "Rene´ Jochum",
+    "email": "rene@jochums.at"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pcdummy/pat-highlightjs.git"
+  },
   "keywords": [
     "patternslib",
     "pattern",
