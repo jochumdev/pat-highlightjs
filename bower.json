@@ -1,0 +1,22 @@
+{
+  "name": "pat-highlightjs",
+  "version": "0.0.1",
+  "devDependencies": {},
+  "dependencies": {
+    "patternslib": "master",
+    "highlightjs": ""
+  },
+  "resolutions": {
+    "jquery": "1.11.1"
+  },
+  "keywords": [
+    "patternslib",
+    "pattern",
+    "hightlightjs"
+  ],
+  "license": "BSD",
+  "ignore": [
+    "node_modules",
+    "bower_components"
+  ]
+}

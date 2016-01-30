@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>pat-highlightjs demo</title>
+    <script data-main="main" src="src/bower_components/requirejs/require.js"></script>
+    <link rel="stylesheet" href="src/bower_components/highlightjs/styles/github.css" media="screen" type="text/css">
+  </head>
+  <body role="document">
+
+    <h1>pat-highlightjs demo</h1>
+
+    <pre><code class="bash">
+cat <<'EOF' > /etc/default/grub
+GRUB_DEFAULT=0
+GRUB_TIMEOUT=10
+GRUB_DISTRIBUTOR=`lsb_release -i -s 2> /dev/null || echo Debian`
+GRUB_CMDLINE_LINUX_DEFAULT="cgroup_enable=memory swapaccount=1 kopt=root=/dev/mapper/root quiet splash"
+#GRUB_CMDLINE_LINUX="cryptdevice=/dev/sda2:root"
+GRUB_ENABLE_CRYPTODISK=y
+GRUB_PRELOAD_MODULES="luks cryptodisk gcry_rijndael gcry_sha1"
+EOF'
+
+update-grub
+    </code></pre>
+
+    <pre>blabla</pre>
+  </body>
+</html>
